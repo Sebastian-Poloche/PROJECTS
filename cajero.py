@@ -11,7 +11,7 @@ def cajero(clave):
         if pin == clave:
             break
     print("Bienvenido al banco que desea consultar")
-    print("1) retira dinero")
+    print("1) retirar dinero")
     print("2) depositar dinero")
     print("3) consultar saldo")
     opcion = float(input(""))
