@@ -16,14 +16,14 @@ def cajero(clave):
     print("3) consultar saldo")
     opcion = float(input(""))
     if opcion == 1:
-        print(f"Tu saldo es {saldo}")
+        print(f"Tu saldo es de {saldo} pesos colombianos")
         print("cuanto dinero desea retirar")
         usuario = float(input(""))
         resultado = saldo - usuario
         print(f"retirando {usuario} pesos colombianos")
-        print(f"tu saldo sobrante es de {resultado}")
+        print(f"tu saldo sobrante es de {resultado} pesos colombianos")
     if opcion == 2:
-        print(f"Tu saldo es {saldo}")
+        print(f"Tu saldo es de {saldo} pesos colombianos")
         print("cuanto dinero desea depositar")
         usuario = float(input(""))
         resultado = saldo + usuario
